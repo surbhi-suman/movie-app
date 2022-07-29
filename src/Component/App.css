@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+  background-color: beige;
+}
+
+p{
+  font-size: 12px;
+}
+
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: aliceblue;
+  font-size: 1.75rem;
+}
+h5{
+  font-size: 1rem;
+}
+
+/* TO adjust column height of each rows card */
+.row-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* vertical spacing between columns */
+
+[class*="col-"] {
+  margin-bottom: 15px;
+}
+
+.content {
+  height: 100%;
+  padding: 10px;
+}
+
+.card-footer{
+  background-color: black;
+}
+
+/* About Css starts */
+.movie-description {
+  text-align: left;
+}
+.movie-description .title {
+  text-align: center;
+  font-size: 1.25rem;
+  text-decoration: underline;
+}
+.movie-wrapper {
+  padding: 30px 0;
+}
+.text-bold {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.back-btn {
+  background-color: cadetblue;
+  color: black;
+  text-align: left;
+  font-family: fantasy;
+  margin-top: 10px;
+}
